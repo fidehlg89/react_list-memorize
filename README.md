@@ -1,3 +1,24 @@
+Si el filtro se usa en procesos sencillos no es necesario el uso de estas funcionalidades.
+
+Memo: 
+    Memoriza un componente
+    Vuelve a memorizar al cambiar las props
+    Evita Re-renders
+    Se usan mejor cuando se tienen muchos elementos en una lista o componentes con llamadas a APi.
+    Con componentes chicos no es recomendable usar, se usa mejor en procesos pesados.
+
+useMemo:
+    Memoriza un valor calculado
+    Para propiedades computadas
+    Para procesos pesados
+    se usa con fines de optimizacion para procesos no muy sencillos, estas comprobaciones hace la app mas lenta
+
+useCallback:
+    Memoriza una funcion, para no volver a definirla en cada render.
+    Usarlo siempre que se pase una funcion como argumento de un efecto.
+    Usarlo siempre que se pase una funcion por props a un componente memorizado.
+    
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
