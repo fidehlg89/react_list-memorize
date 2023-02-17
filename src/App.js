@@ -4,6 +4,8 @@ import List from "./List";
 const initialUsers = [
   { id: 1, name: "Luis" },
   { id: 2, name: "María" },
+  { id: 3, name: "Juana" },
+  { id: 4, name: "Martha" },
 ];
 
 function App() {

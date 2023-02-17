@@ -1,4 +1,4 @@
-Si el filtro se usa en procesos sencillos no es necesario el uso de estas funcionalidades.
+Si el filtro se usa en procesos sencillos no es necesario el uso de estas funcionalidades ya que pueden relentizar la aplicacion.
 
 Memo: 
     Memoriza un componente
